@@ -115,3 +115,7 @@ def bloques_carrera(request, carrera_id):
         'carreras': carreras
     }
     return render(request, "RestaurantBooking/PagesFacultades/bloques-carrera.html", contexto)
+
+
+def inicio_view (request):
+    return render (request,"RestaurantBooking/PageUtils/inicio.html")
